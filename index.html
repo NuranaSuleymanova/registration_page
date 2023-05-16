@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+           <label for="">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+            <label for="">Email Address</label>
+            <input type="email" id="email" placeholder="your-email@gmail.com">
+            <label for="">Password</label>
+            <div class="passwordDiv">
+                <input type="password" id="password" placeholder="Your Password">
+                <button class="seePass"><i class="fa-regular fa-eye"></i></button>
+            </div>
+            <label for="">Re-type Password</label>
+            <div class="passwordDiv">
+                <input type="password" id="RetypePassword" placeholder="Re-type Your Password">
+                <button class="seeRetypePass"><i class="fa-regular fa-eye"></i></button>
+            </div>
+            
+            <button id="registerButton">Register</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/b0165e95d9.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container
+{
+    width: 100%;
+    height: 800px;
+    background-color: #f6f5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .register
+{
+    width: 540px;
+    height: 696px;
+    background-color: white;
+    padding: 40px;
+   
+}
+
+.registerName
+{
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+.input
+{
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px; */
+    margin-top: 40px
+}
+.input label
+{
+    margin-bottom: 10px;
+}
+.input input
+{
+    margin-bottom: 30px;
+    width:440px;
+    height: 54px;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+
+#registerButton
+{
+    margin-bottom: 30px;
+    width:440px;
+    height: 54px;
+    background-color: #FB771A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.passwordDiv
+{
+    position: relative;
+}
+
+.passwordDiv .fa-eye
+{
+    position: absolute;
+    top:20px;
+    right: 50px;
+    color: blue;
+}
